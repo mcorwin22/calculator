@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Black+Ops+One");
+
+body {
+  font-family: "Black Ops One";
+}
+
+#calculator {
+  width: 310px;
+  height: 420px;
+  margin: 10% auto 10% auto;
+  background-color: #a7906b;
+  box-shadow: 0px 0px 10px black;
+  border: solid #5c4f3b 4px;
+  border-radius: 30px 30px 20px 20px;
+}
+
+#entry-box {
+  width: 254px;
+  height: 80px;
+  margin: 25px auto 20px;
+  display: inline-block;
+  text-align: right;
+  background-color: #fff0dd;
+  border-radius: 5px;
+}
+
+#entry {
+  margin: 0px;
+  padding: 0px 5px;
+  font-size: 39px;
+  color: #634922;
+}
+
+#chain {
+  margin: 0px;
+  padding: 0px 5px;
+  font-size: 14px;
+  color: #966f33;
+}
+
+.btn {
+  width: 53px;
+  height: 40px;
+  margin: 6px 5px;
+  padding: 0px;
+  color: white;
+  font-size: 30px;
+  box-shadow: 0 3px 0px 0px black;
+}
+
+.btn:active {
+  box-shadow: inset 0 0 5px black;
+}
+
+.btn:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.btn.digit-wide {
+  width: 120px;
+  background-color: #966f33;
+}
+
+#equals {
+  background-color: #335b96;
+}
+
+.digit {
+  background-color: #966f33;
+}
+
+.clear {
+  padding: 3px;
+  width: 86px;
+  font-size: 25px;
+  background-color: #e2a84d;
+}
+.clear:hover {
+  background-color: #dba24b;
+}
+
+.funct,
+#plusminus {
+  background-color: #634922;
+}
